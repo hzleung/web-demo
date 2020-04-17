@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.ttss": "css",
+    "*.ttml": "xml"
+  },
+  "liveServer.settings.port": 5501
+}

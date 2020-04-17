@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>明泽官网</title>
+  <link rel="stylesheet" href="./detail.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src=".././../assets/common/js/common.js"></script>
+  <link rel="stylesheet" href="../../assets/common/css/common.css">
+  <!-- 高德地图API -->
+  <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=7849db4feb1a3f5fe3469e18675f9d8c"></script>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="header-box">
+      <div class="nav-logo">
+        <a href="../Home/home.html">
+          <img src="../../../static/images/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="center-box">
+        <ul class="nav-list">
+          <li>
+            <a href="../Home/home.html">首页</a>
+          </li>
+          <li>
+            <a href="../About/about.html">关于明泽</a>
+          </li>
+          <li>
+            <a href="../Business/business.html">业务板块</a>
+          </li>
+          <li>
+            <a href="../Horizon/horizon.html">明泽视界</a>
+          </li>
+          <li>
+            <a href="../Club/club.html">明泽会</a>
+          </li>
+          <li>
+            <a href="../Recruitment/recruitment.html">招贤纳士</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-box">
+        <div class="nav-list">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for ...">
+            <button class="search-btn btn btn-default" type="button" style="background: yellow;">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="login-btn">登录</div>
+          <div class="call">
+            <span>电话热线：</span>
+            <span>400-123-123</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="article-detail container">
+      <div class="row">
+        <div class="detail-top">
+          <div class="top-left">
+            <div class="position-title">
+              <span>职位名称</span>
+            </div>
+            <h2>UI设计师</h2>
+            <div class="apartment">
+              <span>设计部门</span>
+              <span> | </span>
+              <span>2020-01-06</span>
+            </div>
+          </div>
+          <div class="top-right">
+            <div class="desc">
+              <span>请上传word，PDF，JPG，JPEG格式附件</span>
+              <span>如果网页发送有问题，请使用其他渠道发送到hr@mingzevip.com</span>
+            </div>
+            <div class="commit-btn">投递简历</div>
+          </div>
+        </div>
+        <div class="detail">
+          <div class="item">
+            <div class="item-title">
+              <span>职位描述</span>
+            </div>
+            <ul>
+              <li>参与企业应用的孵化与设计，包括产品设计，用户分析，品牌设计，设计标准指定和高效输出规范等。</li>
+              <li>参与公司邮箱的产品定位、视觉风格，品牌、运营设计工作等。</li>
+              <li>优化邮箱可用性，改善用户体验。</li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-title">
+              <span>任职要求</span>
+            </div>
+            <ul>
+              <li>两年以上产品设计方面的工作经验，有扎实的平面设计功底和深厚的设计理论，对UI设计趋势和用户体验趋势有敏锐的洞察力。</li>
+              <li>具有良好的产品意识和逻辑分析能力，能有全局观，关注用户体验。</li>
+              <li>沟通能力强，有责任心，能保持好奇心、学习和思辨的能力。</li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-title">
+              <span>联系方式</span>
+            </div>
+            <ul>
+              <li>电话：13430337400</li>
+              <li>邮箱：455444555@qq.com</li>
+              <li>地址：广东省广州市天河区</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-map">
+          <div id="container"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="f-top">
+          <div class="logo">
+            <img src="../../../static/images/logo.png" alt="logo" />
+          </div>
+          <div class="siteinfo">
+            <div class="title">联系我们</div>
+            <div>公司地址：广州市天河区花城大道68环球都会广场34层</div>
+            <div>联系电话：020-32282888</div>
+          </div>
+          <div class="officialQRCode">
+            <div class="code-item">
+              <img src="../../../static/images/logo.png" alt />
+              <span>明泽公众号</span>
+            </div>
+            <div class="code-item">
+              <img src="../../../static/images/logo.png" alt />
+              <span>明泽公众号</span>
+            </div>
+          </div>
+        </div>
+        <div class="f-bottom">
+          <div class="cop">
+            <a class="content-c2" href="#" target="_blank">
+              <div class="content-c2">IPC备案号：许可证书序列号</div>
+              <div class="content-c2">广东XXXX有限公司 版本所有. 并保留所有权利</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      window.onload = function () {
+        var map = new AMap.Map('container', {
+           //监控地图容器尺寸变化
+          resizeEnable: true,
+          //初始化地图层级，倍数为15
+          zoom: 15, 
+          //初始化地图中心点,目前为广州塔
+          center: [113.324460, 23.106470] 
+        });
+      }
+    </script>
+</body>
+
+</html>

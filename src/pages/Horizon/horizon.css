@@ -1,0 +1,210 @@
+a {
+  color: #fff;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* header */
+/* header */
+.center-box .nav-list li:nth-child(4) a {
+  color: burlywood !important;
+  border-bottom: 2px solid burlywood;
+}
+
+/* main */
+.main {
+  width: 100%;
+}
+
+.main .horizon {
+  width: 80%;
+  margin: 50px auto;
+  font-weight: bold;
+}
+
+.horizon .row h1 {
+  width: 252px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.horizon .search {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.horizon .search-input {
+  height: 42px !important;
+}
+
+.horizon .search-btn {
+  width: 98px;
+  height: 42px;
+  border-radius: 0 !important;
+}
+
+/* trends */
+.trends {
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.trends .trends-btn {
+  width: 240px;
+  height: 40px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 38px;
+  color: #555;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.trends .trends-btn ul {
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+}
+
+.trends-btn li {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #eee;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.trends-btn li:first-child {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  float: left;
+}
+
+.trends-btn li:last-child {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  float: right;
+}
+
+.trends .trends-item {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.trends-box {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: none;
+}
+
+.company-box, .industry-box {
+  width: 100%;
+}
+
+.trends-box .c-container {
+  width: 100%;
+  height: 266px;
+  position: relative;
+  letter-spacing: 1px;
+  text-align: justify;
+  background: #F8F8F8;
+  padding: 20px 30px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.trends-box .c-container:last-child {
+  border-bottom: none;
+}
+
+
+.c-container .content_left {
+  width: 60%;
+  float: left;
+}
+
+.c-container .content_left .title {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.c-container .content_left .content {
+  font-size: 17px;
+  font-weight: 500;
+  color: #696969;
+}
+
+.c-container .content_left .trends-public-time {
+  font-size: 15px;
+  font-weight: 500;
+  color: #A0A0A0;
+  margin-top: 32px;
+}
+
+.c-container .trends-img {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+.trends-img img {
+  width: 100%;
+}
+
+.selected {
+  background: #3D65EA;
+  color: #ffffff;
+}
+
+/* 分页 */
+.pagination {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pagination ul {
+  width: 445px;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 45px;
+}
+
+.pagination ul li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.pagination ul li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #A0A0A0;
+  margin-top: 20px;
+  padding: 6px 0;
+}
+
+.pagination ul li a:hover, .pagination ul li a:active, .pagination ul li:nth-child(3) a {
+  color: #3D65EA;
+  border-bottom: 1px solid #3D65EA;
+}
+
+.pagination ul li a:hover, .pagination ul li a:focus {
+  text-decoration: none!important;
+}
+
+.pagination ul li:last-child {
+  margin-right: 0;
+}
+
+.clicked_pagination {
+  color: #3D65EA;
+  border-bottom: 1px solid #3D65EA;
+}

@@ -1,0 +1,220 @@
+/* header */
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+.header-box {
+  display: flex;
+  background: #233DA6;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 270px;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  line-height: 28px;
+  height: 28px;
+}
+
+.nav-list li {
+  position: relative;
+  float: left;
+  padding-left: 40px;
+  list-style-type: none;
+  list-style: none;
+}
+
+.nav-list li:first-child {
+  padding-left: 0;
+}
+
+.nav-list li a {
+  display: block;
+  padding: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.nav-list li a:active {
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: burlywood;
+  border-bottom: 2px solid burlywood;
+}
+
+/* 每个页面对应nav-bar只需要给特定的样式即可 */
+/* .center-box .nav-list li:nth-child(5) a {
+  color: burlywood !important;
+  border-bottom: 2px solid burlywood;
+} */
+
+/* navbar不变时切换用的className,先保留 */
+/* .clickstyle a {
+  color: burlywood !important;
+  border-bottom: 2px solid burlywood;
+} */
+
+.right-box {
+  margin-left: 44px;
+  margin-right: 22px;
+}
+
+.right-box .nav-list {
+  margin-top: 0;
+}
+
+.input-group {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  width: 75px;
+}
+
+.login-btn {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid burlywood;
+  color: burlywood;
+  text-align: center;
+  padding: 10px;
+  line-height: 10px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.call {
+  margin-left: 40px;
+}
+
+.call span {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: burlywood;
+}
+
+.call span:first-child {
+  color: #ffffff;
+  padding-right: 10px;
+}
+
+
+/* footer */
+
+.footer {
+  width: 100%;
+  padding: 50px 0 20px;
+  border: 1px solid #e6e6e6;
+  background: #233DA6;
+  margin-top: 60px;
+  height: 260px;
+}
+
+.container {
+  width: 1220px;
+}
+
+.f-top {
+  height: 50px;
+  padding: 30px 0 100px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-top .logo {
+  width: 130px;
+  height: 130px;
+}
+
+.f-top .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.siteinfo {
+  color: #DFE3F2;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  text-align: left;
+  padding: 40px 0 0;
+}
+
+.siteinfo .title {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.officialQRCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-item {
+  width: 130px;
+  height: 130px;
+  color: #e6e6e6;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-item span {
+  margin-left: 33px;
+}
+
+.code-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.code-item:first-child {
+  margin-right: 25px;
+}
+
+.f-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 10px;
+  position: relative;
+}
+
+.content-c2 {
+  color: #DFE3F2;
+  font-size: 14px;
+  line-height: 22px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
